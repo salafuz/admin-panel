@@ -1,0 +1,6 @@
+@import "tailwindcss";
+@config "~/tailwind.config.js";
+
+@import "@nuxt/ui";
+
+@import "~/assets/css/vars.css";

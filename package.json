@@ -1,0 +1,45 @@
+{
+	"name": "nuxt-app",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"build": "nuxt build",
+		"dev": "nuxt dev",
+		"generate": "nuxt generate",
+		"preview": "nuxt preview",
+		"postinstall": "nuxt prepare"
+	},
+	"dependencies": {
+		"@iconify-json/lucide": "^1.2.31",
+		"@nuxt/icon": "^1.11.0",
+		"@nuxt/image": "^1.9.0",
+		"@nuxt/ui": "^3.0.0",
+		"@pinia/nuxt": "^0.10.1",
+		"@tailwindcss/vite": "^4.0.14",
+		"@tiptap/extension-image": "^2.11.5",
+		"@tiptap/extension-link": "^2.11.5",
+		"@tiptap/extension-placeholder": "^2.11.5",
+		"@tiptap/pm": "^2.11.5",
+		"@tiptap/starter-kit": "^2.11.5",
+		"@tiptap/vue-3": "^2.11.5",
+		"@vueup/vue-quill": "^1.2.0",
+		"@vueuse/core": "^13.0.0",
+		"autoprefixer": "^10.4.21",
+		"axios": "^1.8.4",
+		"nuxt": "^3.16.0",
+		"nuxt-auth-utils": "^0.5.17",
+		"nuxt-echarts": "^0.2.6",
+		"nuxt-twemoji": "^3.6.3",
+		"pinia": "^3.0.1",
+		"postcss": "^8.5.3",
+		"slugify": "^1.6.6",
+		"tailwindcss": "^4.0.14",
+		"vue": "^3.5.13",
+		"vue-echarts": "^7.0.3",
+		"vue-router": "^4.5.0",
+		"zod": "^3.24.2"
+	},
+	"devDependencies": {
+		"@types/node": "^22.13.11"
+	}
+}
